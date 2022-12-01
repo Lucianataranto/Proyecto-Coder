@@ -326,10 +326,25 @@ justify-content: center;
 /* Contacto */
 
 .listacontacto {
+    display: flex;
+    display: inline;
     list-style-type: none;
+}
+
+.figcaption2 {
     font-family: 'IBM Plex Mono';
     font-size: 20px;
+    margin: 20px;
 }
+
+.icono {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 /* Nosotros */
 .ppag4 {
