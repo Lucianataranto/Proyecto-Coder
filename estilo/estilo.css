@@ -51,8 +51,9 @@ width: 100%;
     text-decoration-line: none;
     font-family: 'IBM Plex Mono', monospace;
     background-color: #B1AFFF;
-    border-radius: 10px;
+    border-radius: 13px;
     font-size: 20px; 
+    padding: 3px;
 }
 
 .navegacion {
@@ -353,6 +354,11 @@ justify-content: center;
         grid-template-rows: repeat(5, 1fr);
         gap: 10px;
      }
+
+     .nava { padding: 2px;
+        margin: 10px ;
+     } 
+
      .footer {
         margin-top: 10px;
     }
@@ -389,6 +395,12 @@ justify-content: center;
         grid-template-rows: repeat(5, 1fr);
         gap: 10px;
      }
+
+     .nava { padding: 2px;
+        margin: 10px ;
+     }
+ 
+
      .footer {
         margin-top: 10px;
     }
@@ -426,6 +438,11 @@ justify-content: center;
        grid-template-rows: repeat(5, 1fr);
        gap: 10px;
     }
+
+    .nava { padding: 2px;
+        margin: 10px ;
+    }
+
     .footer {
         margin-top: 10px;
     }
