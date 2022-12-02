@@ -1,6 +1,4 @@
 
-@media (max-width: 1400px) {
-
 *{
     background-color: #fffbca;
 }
@@ -81,7 +79,7 @@ width: 100%;
     text-decoration-line: none;
     font-family:'Dancing Script', cursive;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 
@@ -224,6 +222,7 @@ font-family: 'IBM Plex Mono';
     grid-template-rows: repeat(1, 1fr);
     width: 100%;
     transform: translate(50px);
+    justify-content: space-evenly;
 }
 
 .imagenes__deproductos--1 {
@@ -264,7 +263,7 @@ font-family: 'IBM Plex Mono';
 .form2{
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
-    background-color: #ffe8ff;
+    background-color: #B1AFFF;
     flex-direction: column;
     border: 5px dashed #f1d9ed ;
     width: 50%;
@@ -273,11 +272,11 @@ font-family: 'IBM Plex Mono';
     }
 
 .form2__1--suscripcion  {
-    color: #B1AFFF;
+    color: #FDFEFE;
     margin-bottom: 20px;
     font-family:'Dancing Script', cursive;
-    background-color: #ffe8ff;
-    font-size: 25px;
+    background-color: #B1AFFF;
+    font-size: 200%;
     display: flex;
     justify-content: center;
 }
@@ -285,12 +284,12 @@ font-family: 'IBM Plex Mono';
 .form2__1--si {
     color:#000000;
 margin: 5px;
-background-color: #ffe8ff;
+background-color: #B1AFFF;
 }
 
 .form2__1--no {
     color:#000000;
-background-color: #ffe8ff;
+background-color: #B1AFFF;
 margin: 5px;
 }
 
@@ -311,14 +310,14 @@ width: 2cm;
 }
 
 .form2__1--p {
-    background-color: #ffe8ff;
+    background-color: #B1AFFF;
 }
 
 .form2__1--h2 {
     font-family:'Dancing Script', cursive;
-    background-color: #ffe8ff;
-    color: #B1AFFF;
-    font-size: 25px;
+    background-color: #B1AFFF;
+    color: #FDFEFE;
+    font-size: 200%;
 display: flex;
 justify-content: center;
 }
@@ -435,7 +434,8 @@ justify-content: center;
         align-content: center;
         justify-content: center;
         justify-content: space-between;
-    }
+    }  
+
     .imagenes {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -466,3 +466,5 @@ justify-content: center;
         width: 100%;
     }
   }
+
+
