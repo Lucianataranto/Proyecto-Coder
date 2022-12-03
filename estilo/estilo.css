@@ -1,13 +1,14 @@
 
 *{
-    background-color: #fffbca;
+    background-color: #FFFD8A;
 }
 
 /* Titulo */
 
 .titulo {
-background-image: radial-gradient(#ECF5F4 50%, #E5E5E5  );
--webkit-text-stroke: 2px #B1AFFF;
+background-color: #ffb4a2;
+border: dashed 5px #d81159;
+-webkit-text-stroke: 2px #000000;
   color: transparent;
 font-size: 85px;
 text-align: center;
@@ -45,13 +46,13 @@ width: 100%;
 }
 
 .nava {
-    color: beige;
-    text-decoration-line: none;
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #B1AFFF;
     border-radius: 13px;
     font-size: 20px; 
     padding: 3px;
+    text-decoration-line: none;
+    background-color: #000000;
+    color: white;
 }
 
 .navegacion {
@@ -98,18 +99,18 @@ width: 100%;
 
 .table {
 text-align: center;
-background-color: #EDF7F5;
-border: 5px dashed #B1AFFF;
+background-color: #aaf683;
+border: 5px dashed #EDF7F5;
 }
 
 
 .table__thead-th {
-    background-color: #FDFEFE;
-    color: #000000;
+    background-color: #000000;
+    color: white;
 }
 
 .table__tbody-tr-td {
-    background-color: #FDFEFE;
+    background-color: #aaf683;
     color: #000000;
 }
 
@@ -119,13 +120,13 @@ border: 5px dashed #B1AFFF;
     font-family: 'IBM Plex Mono';
     font-size: 12px;
     display: flex;
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
     flex-direction: column;
 border: 5px dashed #EDF7F5;
 }
 
 .h3pag1 {
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
 
 .form1--2 {
@@ -145,7 +146,7 @@ font-family: 'IBM Plex Mono';
 
 .form1--3 {
     border:none;
-    background-color: #FDFEFE;
+    background-color: #FDFEFE;;
     margin: 10px;
 width: 200px;
 height: 20px;
@@ -160,7 +161,7 @@ font-family: 'IBM Plex Mono';
 
 .form1--4 {
     border:none;
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
 
 
@@ -170,7 +171,7 @@ width: 2.5cm;
 outline: none;
 border: solid #EDF7F5;
 font-family: 'IBM Plex Mono';
-background-color: #FDFEFE;
+background-color: #8adcc7;
 }
 
 .form1--6:focus {
@@ -196,25 +197,26 @@ width: 2cm;
 font-family: 'IBM Plex Mono';
 }
 
-
-/* Imagenes pag productos */
-
 .opcionesdemesa {
     list-style-type: none;
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
 
 .mesafija {
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
 
 .mesaconvertible {
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
 
 .mesaplegable {
-    background-color: #B1AFFF;
+    background-color: #8adcc7;
 }
+
+
+/* Imagenes pag productos */
+
 
 .imagenes {
     display: grid;
@@ -226,7 +228,6 @@ font-family: 'IBM Plex Mono';
 }
 
 .imagenes__deproductos--1 {
-    opacity: 0.5;
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -239,7 +240,7 @@ font-family: 'IBM Plex Mono';
 
 .imagenes__deproductos--1:hover {
     transform: rotate(0deg);
-    border: dashed 5px #B1AFFF;
+    border: dashed 5px #000000;
     background-color: #FDFEFE;
     width: 300px;
     height: 300px;
@@ -249,7 +250,7 @@ font-family: 'IBM Plex Mono';
 .figcaption {
     font-family:'Dancing Script', cursive;
     font-size: 20px;
-    color: #B1AFFF;
+    color: #000000;
     display: block;
     display: inline;
     display: flex;
@@ -263,20 +264,19 @@ font-family: 'IBM Plex Mono';
 .form2{
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
-    background-color: #B1AFFF;
+    background-color: #c4ff87;
     flex-direction: column;
-    border: 5px dashed #f1d9ed ;
+    border: 5px dashed #405e21 ;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     }
 
 .form2__1--suscripcion  {
-    color: #FDFEFE;
+    color: #000000;
     margin-bottom: 20px;
-    font-family:'Dancing Script', cursive;
-    background-color: #B1AFFF;
-    font-size: 200%;
+    background-color: #c4ff87;
+    font-size: 150%;
     display: flex;
     justify-content: center;
 }
@@ -284,12 +284,12 @@ font-family: 'IBM Plex Mono';
 .form2__1--si {
     color:#000000;
 margin: 5px;
-background-color: #B1AFFF;
+background-color: #c4ff87;
 }
 
 .form2__1--no {
     color:#000000;
-background-color: #B1AFFF;
+background-color: #c4ff87;
 margin: 5px;
 }
 
@@ -310,14 +310,13 @@ width: 2cm;
 }
 
 .form2__1--p {
-    background-color: #B1AFFF;
+    background-color: #c4ff87;
 }
 
 .form2__1--h2 {
-    font-family:'Dancing Script', cursive;
-    background-color: #B1AFFF;
-    color: #FDFEFE;
-    font-size: 200%;
+    background-color: #c4ff87;
+    color: #000000;
+    font-size: 150%;
 display: flex;
 justify-content: center;
 }
@@ -351,7 +350,6 @@ justify-content: center;
     font-size: 15px;
 }
 
-}
 
 
 @media (max-width: 991.98px) {
