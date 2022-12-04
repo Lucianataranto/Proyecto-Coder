@@ -445,8 +445,8 @@ justify-content: center;
 
 
     .grid {
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(3, 400px);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         gap: 20px;
         align-content: center;
         justify-content: center;
@@ -488,6 +488,25 @@ justify-content: center;
     .icon {
         font-size: 15px;
     }
+
+    .form1 {
+        width: 300px;
+    }
+
+    .form2__1--h2 {
+        font-size: medium;
+    }
+
+    .form2__1--suscripcion
+    {
+        font-size: medium;
+    }
+
+    .table {
+        font-size: 10px;
+        width: 300px;
+    }
+
   }
 
 
