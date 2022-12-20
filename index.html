@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title class="headtitle"> Mesas de Pool</title>
     <link rel="icon" type="image/jpeg" href="./imagenes/mesadepool.jpeg"/>
-    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@700&family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet"/>
@@ -17,19 +17,32 @@
 <body>
  <header> 
    <h3> <a class="headtitle" href="./index.html">Renso's Pools </a></h3>
-   <nav>
+   <!-- <nav>
         <ul class="navegacion">
-            <li class="navli1"> <a class="nava" href="./index.html"> Inicio </a> </li>
-            <li class="navli2"> <a class="nava" href="paginas/productos.html"> Productos </a> </li>
-            <li class="navli3"> <a class="nava" href="paginas/contacto.html"> Contacto </a> </li>
-            <li class="navli4"> <a class="nava" href="paginas/nosotros.html"> Nosotros </a></li>
-            <li class="navli5"> <a class="nava" href="paginas/votar.html"> Votar </a></li>
+            <li class="navegacion__li"> <a class="navegacion__li-a" href="./index.html"> Inicio </a> </li>
+            <li class="navegacion__li"> <a class="navegacion__li-a" href="paginas/productos.html"> Productos </a> </li>
+            <li class="navegacion__li"> <a class="navegacion__li-a" href="paginas/contacto.html"> Contacto </a> </li>
+            <li class="navegacion__li"> <a class="navegacion__li-a" href="paginas/nosotros.html"> Nosotros </a></li>
+            <li class="navegacion__li"> <a class="navegacion__li-a" href="paginas/votar.html"> Votar </a></li>
         </ul>
-    </nav>
+    </nav> -->
+
+
+    <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="nav h-100 flex-column align-items-stretch pe-4 border-end">
+              <a class="nav__1"  href="./index.html"> Inicio </a>
+                <a class="nav__1" href="paginas/productos.html"> Productos </a>
+                <a class="nav__1" href="paginas/contacto.html"> Contacto </a>
+              <a class="nav__1" href="paginas/nosotros.html"> Nosotros </a>
+              <a class="nav__1" href="paginas/votar.html"> Votar </a>
+          </nav>
+        </div>
+
 </header>
     <main >
-        <div class="flextitulo">
-        <h1 class="titulo" > Alquilá tu mesa de pool </h1>
+        <div class="titulo">
+        <h1 class="titulo__1" > Alquilá tu mesa de pool </h1>
         </div>
         <div class="grid">
             <table class="table" border="1"; width="520", height="300">
@@ -65,17 +78,17 @@
             </table>
         <section>
             <form class="form1" action="" method="" enctype="">
-<input class="form1--2" type="text" placeholder="ingrese su nombre" id="nombre"/>
-<input class="form1--3" type="email" placeholder="ingrese su mail"/> 
-<fieldset class="form1--4">
-    <h3 class="h3pag1"> ¿Qué mesa/s vas a elegir? </h3>
-    <ul class="opcionesdemesa">
-<li> <p  class="mesaplegable"> <input type="radio" name="mesaplegable"> Mesa plegable </p> </li>
-<li> <p class="mesafija"> <input type="radio" name="mesafija"> Mesa fija </p> </li>
-<li> <p class="mesaconvertible"> <input type="radio" name="mesaconvertible"> Mesa convertible </p> </li>
+<input class="form1__2" type="text" placeholder="ingrese su nombre" id="nombre"/>
+<input class="form1__3" type="email" placeholder="ingrese su mail"/> 
+<fieldset class="form1__4">
+    <h3 class="form1__4-h3"> ¿Qué mesa/s vas a elegir? </h3>
+    <ul class="form1__5-mesas">
+<li class="form1__5-mesas-1"> <p  class="form1__5-mesas-1"> <input type="radio" name="mesaplegable"> Mesa plegable </p> </li>
+<li class="form1__5-mesas-1"> <p class="form1__5-mesas-1"> <input type="radio" name="mesafija"> Mesa fija </p> </li>
+<li class="form1__5-mesas-1"> <p class="form1__5-mesas-1"> <input type="radio" name="mesaconvertible"> Mesa convertible </p> </li>
 </ul>
 </fieldset>
-<h3 class="h3pag1"> ¿Qué día necesitás tu mesa de pool? <input class="form1--6" type="date"> </h3>
+<h3 class="form1__4-h3"> ¿Qué día necesitás tu mesa de pool? <input class="form1__6" type="date"> </h3>
 <button class="enviar"> Enviar </button>  
 <button class="limpiar" type="submit"> Limpiar </button>
             </form>

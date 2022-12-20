@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "description": "Proyecto para Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss scss/main.scss css/estilos.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucianataranto/Proyecto-Coder.git"
+  },
+  "author": "Luciana Taranto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucianataranto/Proyecto-Coder/issues"
+  },
+  "homepage": "https://github.com/Lucianataranto/Proyecto-Coder#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,195 @@
+
+*{
+    background-color: #f4fe29;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@media (max-width: 991.98px) {
+
+    .grid {
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(3, 400px);
+        gap: 20px;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .navegacion {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+     }
+
+     .navegacion__li-a { padding: 2px;
+        margin: 10px ;
+     } 
+
+     .footer {
+        margin-top: 10px;
+    }
+    .form2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+    }
+
+
+ @media (max-width: 767.98px) { 
+
+    .grid {
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(3, 400px);
+        gap: 20px;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .imagenes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-content: center !important;
+        transform: none;
+    }
+
+    .imagenes__deproductos--1:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navegacion {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+     }
+
+     .navegacion__li-a { padding: 2px;
+        margin: 10px ;
+     }
+ 
+
+     .footer {
+        margin-top: 10px;
+    }
+
+    .form2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+  @media (max-width: 575.98px) {
+
+    .headtitle {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-between;
+    }  
+
+    .imagenes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-content: center !important;
+        transform: none;
+    }
+
+    .imagenes__deproductos--1:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navegacion {
+       grid-template-columns: 1fr;
+       grid-template-rows: repeat(5, 1fr);
+       gap: 10px;
+       justify-content: center;
+    }
+
+    .navegacion__li-a { padding: 2px;
+        margin: 10px ;
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+    .form2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
+
+    .form1 {
+        width: 300px;
+    }
+
+    .form2__h2 {
+        font-size: medium;
+    }
+
+    .form2__suscripcion
+    {
+        font-size: medium;
+    }
+
+    .table {
+        font-size: 10px;
+        width: 300px;
+    }
+
+
+// <div class="col-8">
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+<div id="item-1">
+  <h4>Item 1</h4>
+  <p>...</p>
+</div>
+<div id="item-1-1">
+  <h5>Item 1-1</h5>
+  <p>...</p>
+</div>
+<div id="item-1-2">
+  <h5>Item 1-2</h5>
+  <p>...</p>
+</div>
+<div id="item-2">
+  <h4>Item 2</h4>
+  <p>...</p>
+</div>
+<div id="item-3">
+  <h4>Item 3</h4>
+  <p>...</p>
+</div>
+<div id="item-3-1">
+  <h5>Item 3-1</h5>
+  <p>...</p>
+</div>
+<div id="item-3-2">
+  <h5>Item 3-2</h5>
+  <p>...</p>
+</div>
+</div>
+</div>
+</div>
