@@ -21,15 +21,15 @@ a {
         justify-content: center;
         justify-content: space-between;
     }
-    .navegacion {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        gap: 10px;
-     }
+    // .navegacion {
+    //     grid-template-columns: 1fr;
+    //     grid-template-rows: repeat(5, 1fr);
+    //     gap: 10px;
+    //  }
 
-     .navegacion__li-a { padding: 2px;
-        margin: 10px ;
-     } 
+    //  .navegacion__li-a { padding: 2px;
+    //     margin: 10px ;
+    //  } 
 
      .footer {
         margin-top: 10px;
@@ -63,16 +63,21 @@ a {
         height: 200px;
     }
 
-    .navegacion {
+    // .navegacion {
+    //     grid-template-columns: 1fr;
+    //     grid-template-rows: repeat(5, 1fr);
+    //     gap: 10px;
+    // //  }
+
+    //  .navegacion__li-a { padding: 2px;
+    //     margin: 10px ;
+    //  }
+ 
+    .nav {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
-        gap: 10px;
-     }
-
-     .navegacion__li-a { padding: 2px;
-        margin: 10px ;
-     }
- 
+        gap: 10px; 
+    }
 
      .footer {
         margin-top: 10px;
@@ -117,16 +122,22 @@ a {
         height: 200px;
     }
 
-    .navegacion {
-       grid-template-columns: 1fr;
-       grid-template-rows: repeat(5, 1fr);
-       gap: 10px;
-       justify-content: center;
-    }
+    // .navegacion {
+    //    grid-template-columns: 1fr;
+    //    grid-template-rows: repeat(5, 1fr);
+    //    gap: 10px;
+    // //    justify-content: center;
+    // // }
 
-    .navegacion__li-a { padding: 2px;
-        margin: 10px ;
-        font-size: 10px;
+    // .navegacion__li-a { padding: 2px;
+    // margin: 10px ;
+    // font-size: 10px;
+    // }
+
+    .nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px; 
     }
 
     .footer {
@@ -158,38 +169,4 @@ a {
         font-size: 10px;
         width: 300px;
     }
-
-
-// <div class="col-8">
-<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-<div id="item-1">
-  <h4>Item 1</h4>
-  <p>...</p>
-</div>
-<div id="item-1-1">
-  <h5>Item 1-1</h5>
-  <p>...</p>
-</div>
-<div id="item-1-2">
-  <h5>Item 1-2</h5>
-  <p>...</p>
-</div>
-<div id="item-2">
-  <h4>Item 2</h4>
-  <p>...</p>
-</div>
-<div id="item-3">
-  <h4>Item 3</h4>
-  <p>...</p>
-</div>
-<div id="item-3-1">
-  <h5>Item 3-1</h5>
-  <p>...</p>
-</div>
-<div id="item-3-2">
-  <h5>Item 3-2</h5>
-  <p>...</p>
-</div>
-</div>
-</div>
-</div>
+  }

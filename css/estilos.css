@@ -14,23 +14,14 @@
     width: 100%; }
 
 /* Navegacion */
-.navegacion {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: space-around !important;
-  width: min-content;
-  gap: 30px; }
-  .navegacion__li {
-    text-decoration-line: none;
-    list-style-type: none; }
-    .navegacion__li a {
-      font-family: 'IBM Plex Mono', monospace;
-      border-radius: 13px;
-      font-size: 20px;
-      padding: 3px;
-      text-decoration-line: none;
-      background-color: #000000;
-      color: white; }
+.nav__1 {
+  font-family: 'IBM Plex Mono', monospace;
+  border-radius: 13px;
+  font-size: 20px;
+  padding: 3px;
+  background-color: #000000;
+  color: white;
+  margin: 20px; }
 
 /* Head title */
 .headtitle {
@@ -81,10 +72,7 @@
   flex-direction: column;
   border: 5px dashed #EDF7F5;
   color: black;
-  font-weight: bolder;
-  /* botones form 1 */
-  /* Imagenes pag productos */
-  /* Form pag Votar */ }
+  font-weight: bolder; }
   .form1__2 {
     border: none;
     background-color: #FDFEFE;
@@ -110,13 +98,13 @@
   .form1__4 {
     border: none;
     background-color: #ce496e; }
-  .form1__4-h3 {
+    .form1__4-h3 {
+      background-color: #ce496e; }
+  .form1__5-mesas {
+    list-style-type: none;
     background-color: #ce496e; }
-    .form1__4-h3-mesas {
-      list-style-type: none;
-      background-color: #ce496e; }
-    .form1__4-h3-mesas-1 {
-      background-color: #ce496e; }
+    .form1__5-mesas-1 {
+      background-color: #ce496e !important; }
   .form1__6 {
     margin: 10px;
     width: 2.5cm;
@@ -127,28 +115,33 @@
     .form1__6:focus {
       width: 100px;
       height: 50px; }
-  .form1 .enviar {
-    color: #FDFEFE;
-    background-color: #000000;
-    border-radius: 10px;
-    margin: 10px;
-    width: 2cm;
-    font-family: 'IBM Plex Mono'; }
-  .form1 .limpiar {
-    color: #FDFEFE;
-    background-color: #000000;
-    border-radius: 10px;
-    margin: 10px;
-    width: 2cm;
-    font-family: 'IBM Plex Mono'; }
-  .form1 .imagenes {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(1, 1fr);
-    width: 100%;
-    transform: translate(50px);
-    justify-content: space-evenly; }
-  .form1 .imagenes__deproductos--1 {
+
+/* botones form 1 */
+.enviar {
+  color: #FDFEFE;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 10px;
+  width: 2cm;
+  font-family: 'IBM Plex Mono'; }
+
+.limpiar {
+  color: #FDFEFE;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 10px;
+  width: 2cm;
+  font-family: 'IBM Plex Mono'; }
+
+/* Imagenes pag productos */
+.imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(1, 1fr);
+  width: 100%;
+  transform: translate(50px);
+  justify-content: space-evenly; }
+  .imagenes__deproductos--1 {
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -157,64 +150,64 @@
     transition: all 1s ease;
     display: flex;
     justify-content: space-between 100px; }
-  .form1 .imagenes__deproductos--1:hover {
-    transform: rotate(0deg);
-    border: dashed 5px #000000;
-    background-color: #FDFEFE;
-    width: 300px;
-    height: 300px; }
-  .form1 .figcaption {
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    color: #000000;
-    display: block;
-    display: inline;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .form1 .form2 {
-    font-family: 'IBM Plex Mono', monospace;
-    display: flex;
+    .imagenes__deproductos--1:hover {
+      transform: rotate(0deg);
+      border: dashed 5px #000000;
+      background-color: #FDFEFE;
+      width: 300px;
+      height: 300px; }
+
+.figcaption {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* Form pag Votar */
+.form2 {
+  font-family: 'IBM Plex Mono', monospace;
+  display: flex;
+  background-color: #c4ff87;
+  flex-direction: column;
+  border: 5px dashed #405e21;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%; }
+  .form2__h2 {
     background-color: #c4ff87;
-    flex-direction: column;
-    border: 5px dashed #405e21;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%; }
-    .form1 .form2__1__1--h2 {
-      background-color: #c4ff87;
-      color: #000000;
-      font-size: 150%;
-      display: flex;
-      justify-content: center; }
-    .form1 .form2__1 h2 {
-      color: #000000;
-      margin-bottom: 20px;
-      background-color: #c4ff87;
-      font-size: 150%;
-      display: flex;
-      justify-content: center; }
-    .form1 .form2__1 p {
-      color: #000000;
-      margin: 5px;
-      background-color: #c4ff87; }
-    .form1 .form2__1 p {
-      color: #000000;
-      background-color: #c4ff87;
-      margin: 5px; }
-    .form1 .form2__1 button {
-      color: #FDFEFE;
-      background-color: #000000;
-      border-radius: 10px;
-      margin: 10px;
-      width: 2cm; }
-    .form1 .form2__1 button {
-      color: #FDFEFE;
-      background-color: #000000;
-      border-radius: 10px;
-      margin: 10px;
-      width: 2cm; }
-  .form1 p {
+    color: #000000;
+    font-size: 150%;
+    display: flex;
+    justify-content: center; }
+  .form2__p {
+    color: #000000;
+    margin: 5px;
+    background-color: #c4ff87; }
+  .form2__suscripcion {
+    background-color: #c4ff87;
+    color: #000000;
+    font-size: 150%;
+    display: flex;
+    justify-content: center; }
+  .form2__enviar {
+    color: #FDFEFE;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 2cm; }
+  .form2__limpiar {
+    color: #FDFEFE;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 2cm; }
+  .form2__si {
+    background-color: #c4ff87; }
+  .form2__no {
     background-color: #c4ff87; }
 
 /* Contacto */
@@ -248,6 +241,15 @@
 .ppag4::selection {
   background-color: #d81159; }
 
+* {
+  background-color: #f4fe29; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration-line: none; }
+
 @media (max-width: 991.98px) {
   .grid {
     grid-template-columns: repeat(1, 400px);
@@ -256,13 +258,6 @@
     align-content: center;
     justify-content: center;
     justify-content: space-between; }
-  .navegacion {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 10px; }
-  .nava {
-    padding: 2px;
-    margin: 10px; }
   .footer {
     margin-top: 10px; }
   .form2 {
@@ -285,13 +280,10 @@
   .imagenes__deproductos--1:hover {
     width: 200px;
     height: 200px; }
-  .navegacion {
+  .nav {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     gap: 10px; }
-  .nava {
-    padding: 2px;
-    margin: 10px; }
   .footer {
     margin-top: 10px; }
   .form2 {
@@ -318,15 +310,10 @@
   .imagenes__deproductos--1:hover {
     width: 200px;
     height: 200px; }
-  .navegacion {
+  .nav {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
-    gap: 10px;
-    justify-content: center; }
-  .nava {
-    padding: 2px;
-    margin: 10px;
-    font-size: 10px; }
+    gap: 10px; }
   .footer {
     margin-top: 10px; }
   .form2 {
@@ -336,19 +323,10 @@
     font-size: 15px; }
   .form1 {
     width: 300px; }
-  .form2__1--h2 {
+  .form2__h2 {
     font-size: medium; }
-  .form2__1--suscripcion {
+  .form2__suscripcion {
     font-size: medium; }
   .table {
     font-size: 10px;
     width: 300px; } }
-
-* {
-  background-color: #f4fe29; }
-
-ul {
-  list-style-type: none; }
-
-a {
-  text-decoration-line: none; }
