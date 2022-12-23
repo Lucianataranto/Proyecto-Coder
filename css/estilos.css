@@ -14,7 +14,7 @@
     width: 100%; }
 
 /* Navegacion */
-.nav__1 {
+.navv {
   font-family: 'IBM Plex Mono', monospace;
   border-radius: 13px;
   font-size: 20px;
@@ -51,24 +51,24 @@
   font-family: 'IBM Plex Mono';
   font-size: 15px; }
 
-.table {
+.t {
   text-align: center;
   background-color: #ce496e;
   border: 5px dashed #EDF7F5;
   font-weight: bolder; }
-  .table__thead-th {
+  .t__thead-th {
     background-color: #000000;
     color: white; }
-  .table__tbody-tr-td {
+  .t__tbody-tr-td {
     background-color: #ce496e;
     color: black; }
 
 /* Form Index */
 .form1 {
+  background-color: #ce496e !important;
   font-family: 'IBM Plex Mono';
   font-size: 12px;
   display: flex;
-  background-color: #ce496e;
   flex-direction: column;
   border: 5px dashed #EDF7F5;
   color: black;

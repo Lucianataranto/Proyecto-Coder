@@ -47,20 +47,22 @@
 
 // }
 
-
-// .nav {
-
-//     &__1 {
-    
-// font-family: 'IBM Plex Mono', monospace;
-// border-radius: 13px;
-// font-size: 20px; 
-// padding: 3px;
-// background-color: #000000;
-// color: white; 
-// margin: 20px;
-//     }
+// .navbar1 {
+//     background-color: #d81159;
 // }
+
+.navv {
+
+    
+font-family: 'IBM Plex Mono', monospace;
+border-radius: 13px;
+font-size: 20px; 
+padding: 3px;
+background-color: #000000;
+color: white; 
+margin: 20px;
+    }
+
 
 /* Head title */
 
@@ -120,10 +122,10 @@ font-weight: bolder;
 /* Form Index */
 
 .form1 {
+    background-color: #ce496e !important;
     font-family: 'IBM Plex Mono';
     font-size: 12px;
     display: flex;
-    background-color: #ce496e;
     flex-direction: column;
 border: 5px dashed #EDF7F5;
 color: black;
