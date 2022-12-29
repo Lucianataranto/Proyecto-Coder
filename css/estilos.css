@@ -160,14 +160,14 @@
 .form2 {
   font-family: 'IBM Plex Mono', monospace;
   display: flex;
-  background-color: #c4ff87;
+  background-color: #ce496e;
   flex-direction: column;
   border: 5px dashed #405e21;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%; }
   .form2__h2 {
-    background-color: #c4ff87;
+    background-color: #ce496e;
     color: #000000;
     font-size: 150%;
     display: flex;
@@ -175,9 +175,9 @@
   .form2__p {
     color: #000000;
     margin: 5px;
-    background-color: #c4ff87; }
+    background-color: #ce496e; }
   .form2__suscripcion {
-    background-color: #c4ff87;
+    background-color: #ce496e;
     color: #000000;
     font-size: 150%;
     display: flex;
@@ -195,9 +195,9 @@
     margin: 10px;
     width: 2cm; }
   .form2__si {
-    background-color: #c4ff87; }
+    background-color: #ce496e; }
   .form2__no {
-    background-color: #c4ff87; }
+    background-color: #ce496e; }
 
 /* Contacto */
 .listadecontacto {
@@ -230,6 +230,12 @@
 .ppag4::selection {
   background-color: #d81159; }
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px; }
+
 * {
   background-color: #f4fe29; }
 
@@ -247,11 +253,12 @@ a {
     align-content: center;
     justify-content: center;
     justify-content: space-between; }
-  .footer {
-    margin-top: 10px; }
   .form2 {
     margin: 0 auto;
-    width: 100%; } }
+    width: 100%; }
+  .video {
+    width: 50%;
+    height: 50%; } }
 
 @media (max-width: 767.98px) {
   .grid {
@@ -273,11 +280,12 @@ a {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     gap: 10px; }
-  .footer {
-    margin-top: 10px; }
   .form2 {
     margin: 0 auto;
-    width: 100%; } }
+    width: 100%; }
+  .video {
+    width: 50%;
+    height: 50%; } }
 
 @media (max-width: 575.98px) {
   .headtitle {
@@ -303,8 +311,6 @@ a {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     gap: 10px; }
-  .footer {
-    margin-top: 10px; }
   .form2 {
     margin: 0 auto;
     width: 100%; }
@@ -318,4 +324,7 @@ a {
     font-size: medium; }
   .table {
     font-size: 10px;
-    width: 300px; } }
+    width: 300px; }
+  .video {
+    width: 50%;
+    height: 50%; } }

@@ -31,12 +31,17 @@ a {
     //     margin: 10px ;
     //  } 
 
-     .footer {
-        margin-top: 10px;
-    }
+    //  .footer {
+    //     margin-top: 10px;
+    // }
     .form2 {
         margin: 0 auto;
         width: 100%;
+    }
+
+    .video {
+        width: 50%;
+        height: 50%;
     }
     }
 
@@ -79,13 +84,17 @@ a {
         gap: 10px; 
     }
 
-     .footer {
-        margin-top: 10px;
-    }
+    //  .footer {
+    //     margin-top: 10px;
+    // }
 
     .form2 {
         margin: 0 auto;
         width: 100%;
+    }
+    .video {
+        width: 50%;
+        height: 50%;
     }
 }
 
@@ -140,9 +149,9 @@ a {
         gap: 10px; 
     }
 
-    .footer {
-        margin-top: 10px;
-    }
+    // .footer {
+    //     margin-top: 10px;
+    // }
     .form2 {
         margin: 0 auto;
         width: 100%;
@@ -168,5 +177,9 @@ a {
     .table {
         font-size: 10px;
         width: 300px;
+    }
+    .video {
+        width: 50%;
+        height: 50%;
     }
   }

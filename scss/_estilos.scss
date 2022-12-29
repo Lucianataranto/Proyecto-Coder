@@ -222,7 +222,7 @@ font-family: 'IBM Plex Mono';
 .form2 {
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
-    background-color: #c4ff87;
+    background-color: #ce496e;
     flex-direction: column;
     border: 5px dashed #405e21 ;
     width: 50%;
@@ -231,7 +231,7 @@ font-family: 'IBM Plex Mono';
 
 
     &__h2 {
-            background-color: #c4ff87;
+            background-color: #ce496e;
             color: #000000;
             font-size: 150%;
         display: flex;
@@ -241,11 +241,11 @@ font-family: 'IBM Plex Mono';
 &__p {
     color:#000000;
 margin: 5px;
-background-color: #c4ff87;
+background-color: #ce496e;
 }
 
 &__suscripcion {
-    background-color: #c4ff87;
+    background-color: #ce496e;
     color: #000000;
     font-size: 150%;
 display: flex;
@@ -269,14 +269,13 @@ width: 2cm;
 }
 
 &__si {
-    background-color: #c4ff87;
+    background-color: #ce496e;
 }
 
 &__no {
-    background-color: #c4ff87;
+    background-color: #ce496e;
 }
 }
-
 
 
 
@@ -320,4 +319,10 @@ width: 2cm;
     background-color: #d81159;
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
 
