@@ -6,7 +6,7 @@
   .titulo__1 {
     background-color: #185224;
     border: dashed 5px white;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 2px #000000;
     color: transparent;
     font-size: 85px;
     text-align: center;
@@ -131,10 +131,10 @@
   transform: translate(50px);
   justify-content: space-evenly; }
   .imagenes__deproductos--1 {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
-    margin: auto;
+    margin: 30px;
     transform: rotate(10deg);
     transition: all 1s ease;
     display: flex;
@@ -143,8 +143,8 @@
       transform: rotate(0deg);
       border: dashed 5px #000000;
       background-color: #FDFEFE;
-      width: 300px;
-      height: 300px; }
+      width: 500px;
+      height: 500px; }
 
 .figcaption {
   font-family: 'Dancing Script', cursive;
@@ -157,15 +157,23 @@
   align-items: center; }
 
 /* Form pag Votar */
+.gridvotar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 30px; }
+
 .form2 {
   font-family: 'IBM Plex Mono', monospace;
   display: flex;
   background-color: #ce496e;
   flex-direction: column;
   border: 5px dashed #405e21;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%; }
+  justify-content: space-evenly;
+  width: 500px;
+  height: 500px; }
   .form2__h2 {
     background-color: #ce496e;
     color: #000000;
@@ -199,6 +207,14 @@
   .form2__no {
     background-color: #ce496e; }
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 600px;
+  height: 400px; }
+
 /* Contacto */
 .listadecontacto {
   display: flex;
@@ -230,11 +246,16 @@
 .ppag4::selection {
   background-color: #d81159; }
 
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px; }
+.imagenesnosotros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center; }
+
+.imagennosotros {
+  width: 300px;
+  height: 300px;
+  margin: 30px; }
 
 * {
   background-color: #f4fe29; }
