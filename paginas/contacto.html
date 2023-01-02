@@ -7,7 +7,7 @@
     <title class="headtitle"> Mesas de Pool</title>
     <meta name="keywords" content="mesa, poool, pools, billar"/>
     <meta name="description" content="Contacto para alquiler de mesas de Pool en la localidad de Pilar y alrededores"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <link rel="icon" type="image/jpeg" href="../imagenes/mesadepool.jpeg"/>
     <link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -51,14 +51,35 @@
 
      </header>
 <main>
+<div class="titulo">
 <h1 class="titulo__1"> Tu consulta no molesta </h1>
+</div>
+<div class="gridcontacto">
 <section class="listadecontacto">
     <ul>
-       <li class="icon"> <span class="icon-phone"> Teléfono: 11-3492-7092 </span> </li>
-       <li class="icon"> <span class="icon-envelop"> Rensoansalone@gmail.com </span> </li>
-       <li class="icon"> <span class="icon-facebook2"> Facebook: Renso's Pools </span> </li>
+       <li class="icon"> <span class="textoicono icon-phone"> Teléfono: 11-3492-7092 </span> </li>
+       <li class="icon"> <span class="textoicono icon-envelop"> Rensoansalone@gmail.com </span> </li>
+       <li class="icon"> <span class="textoicono icon-facebook2"> Facebook: Renso's Pools </span> </li>
     </ul>
     </section>
+    <section>
+      <form class="form1" action="" method="" enctype="">
+<input class="form1__2" type="text" placeholder="ingrese su nombre" id="nombre"/>
+<input class="form1__3" type="email" placeholder="ingrese su mail"/> 
+<fieldset class="form1__4">
+<h3 class="form1__4-h3"> ¿Qué mesa/s vas a elegir? </h3>
+<ul class="form1__5-mesas">
+<li class="form1__5-mesas-1"> <p  class="form1__5-mesas-1"> <input type="radio" name="mesaplegable"> Mesa plegable </p> </li>
+<li class="form1__5-mesas-1"> <p class="form1__5-mesas-1"> <input type="radio" name="mesafija"> Mesa fija </p> </li>
+<li class="form1__5-mesas-1"> <p class="form1__5-mesas-1"> <input type="radio" name="mesaconvertible"> Mesa convertible </p> </li>
+</ul>
+</fieldset>
+<h3 class="form1__4-h3"> ¿Qué día necesitás tu mesa de pool? <input class="form1__6" type="date"> </h3>
+<button class="enviar"> Enviar </button>  
+<button class="limpiar" type="submit"> Limpiar </button>
+      </form>
+  </section>
+</div>
 </main>
 <footer class="footer container-fluid"> Renso's Pools </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

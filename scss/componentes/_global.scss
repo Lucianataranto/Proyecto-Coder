@@ -13,88 +13,71 @@ a {
 
 @media (max-width: 991.98px) {
 
-    .grid {
+    .gridindex {
         grid-template-columns: repeat(1, 400px);
         grid-template-rows: repeat(3, 400px);
         gap: 20px;
-        align-content: center;
-        justify-content: center;
-        justify-content: space-between;
     }
-    // .navegacion {
-    //     grid-template-columns: 1fr;
-    //     grid-template-rows: repeat(5, 1fr);
-    //     gap: 10px;
-    //  }
 
-    //  .navegacion__li-a { padding: 2px;
-    //     margin: 10px ;
-    //  } 
 
-    //  .footer {
-    //     margin-top: 10px;
-    // }
-    .form2 {
-        margin: 0 auto;
-        width: 100%;
+    .imagenesnosotros {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .table1 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .gridcontacto {
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(3, 400px);
+        gap: 20px;
     }
 
     .video {
-        width: 50%;
-        height: 50%;
+        width: 500px;
+        height: 500px;
     }
     }
 
 
  @media (max-width: 767.98px) { 
 
-    .grid {
+    .gridindex {
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(3, 400px);
+        gap: 10px;
+    }
+
+    .table1 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .gridcontacto {
         grid-template-columns: repeat(1, 400px);
         grid-template-rows: repeat(3, 400px);
         gap: 20px;
-        align-content: center;
-        justify-content: center;
-        justify-content: space-between;
     }
+
     .imagenes {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        align-content: center !important;
-        transform: none;
+        align-content: center;
     }
 
-    .imagenes__deproductos--1:hover {
-        width: 200px;
-        height: 200px;
+    .imagenesnosotros {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
-    // .navegacion {
-    //     grid-template-columns: 1fr;
-    //     grid-template-rows: repeat(5, 1fr);
-    //     gap: 10px;
-    // //  }
-
-    //  .navegacion__li-a { padding: 2px;
-    //     margin: 10px ;
-    //  }
- 
-    .nav {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        gap: 10px; 
-    }
-
-    //  .footer {
-    //     margin-top: 10px;
-    // }
-
-    .form2 {
-        margin: 0 auto;
-        width: 100%;
-    }
     .video {
-        width: 50%;
-        height: 50%;
+        width: 400px;
+        height: 400px;
     }
 }
 
@@ -105,81 +88,51 @@ a {
         font-size: 20px;
     }
 
-    .titulo {
+    .titulo__1 {
         font-size: 40px;
     }
 
 
-    .grid {
+    .gridindex {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px;
-        align-content: center;
-        justify-content: center;
-        justify-content: space-between;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 5px;
     }  
+
+    .table1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gridcontacto {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .listadecontacto {
+        display: flex;
+        justify-content: center;
+    }
 
     .imagenes {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        align-content: center !important;
-        transform: none;
+        align-content: center;
     }
 
-    .imagenes__deproductos--1:hover {
-        width: 200px;
-        height: 200px;
-    }
-
-    // .navegacion {
-    //    grid-template-columns: 1fr;
-    //    grid-template-rows: repeat(5, 1fr);
-    //    gap: 10px;
-    // //    justify-content: center;
-    // // }
-
-    // .navegacion__li-a { padding: 2px;
-    // margin: 10px ;
-    // font-size: 10px;
-    // }
-
-    .nav {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        gap: 10px; 
-    }
-
-    // .footer {
-    //     margin-top: 10px;
-    // }
-    .form2 {
-        margin: 0 auto;
-        width: 100%;
-    }
+.imagenesnosotros {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 
     .icon {
         font-size: 15px;
     }
 
-    .form1 {
-        width: 300px;
-    }
-
-    .form2__h2 {
-        font-size: medium;
-    }
-
-    .form2__suscripcion
-    {
-        font-size: medium;
-    }
-
-    .table {
-        font-size: 10px;
-        width: 300px;
-    }
     .video {
-        width: 50%;
-        height: 50%;
+        width: 300px;
+        height: 300px;
     }
   }

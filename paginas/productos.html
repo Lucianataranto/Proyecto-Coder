@@ -7,7 +7,8 @@
     <title class="headtitle"> Mesas de Pool</title>
         <meta name="keywords" content="mesa, poool, pools, billar"/>
     <meta name="description" content="Nuestros productos"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/jpeg" href="../imagenes/mesadepool.jpeg"/>
     <link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -15,7 +16,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@700&family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Caveat&family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@700&family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet"/>
-<link href="stylesheet" href="./css/bootstrap.min.css" />
 </head>
 <body>
     <header class="header"> 
@@ -51,32 +51,41 @@
          
      </header>
      <main>
+      <div class="titulo">
         <h1 class="titulo__1" > Nuestros productos </h1>
-        <section class="imagenes">
-        <div>
-            <figure class="imagenes__deproductos">
-        <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolconvertible.jpg" alt="Pool" title="Mesa de pool convertible">
-        <figcaption class="figcaption"> Mesa de pool convertible </figcaption>
-    </figure>
-</div>
-    <div>
-        <figure class="imagenes__deproductos"></figure>
-        <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolfija.jpg" alt="Pool" title="Mesa de pool fija">  
-        <figcaption class="figcaption"> Mesa de pool fija </figcaption>
-    </figure>
-</div>
-    <div>
-        <figure class="imagenes__deproductos"></figure>
-        <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolplegable.jpg" alt="Pool" title="Mesa de pool plegable">
-        <figcaption class="figcaption"> Mesa de pool plegable </figcaption>
-    </figure>
-</div>
-</section>
+      </div>
+        <div class="imagenes">
+        <div data-aos="fade-right" class="imagenes__deproductos card">
+          <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolconvertible.jpg" class="card-img-top" alt="Pool convertible">
+          <div class="card-body">
+            <h5 class="card-title">Pool convertible</h5>
+            <p class="card-text">Perfecto para aquellos que aman tanto el pool como el ping pong. También se puede usar mesa convencional.</p>
+          </div>
+          </div>
+
+        <div data-aos="fade-right" class="imagenes__deproductos card">
+          <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolplegable.jpg" class="card-img-top" alt="Pool plegable">
+          <div class="card-body">
+            <h5 class="card-title">Pool plegable</h5>
+            <p class="card-text">Excelente para ambientes con poco espacio para poner una mesa de pool.</p>
+          </div>
+          </div>
+
+        <div data-aos="fade-right" class="imagenes__deproductos card">
+          <img class="imagenes__deproductos--1" src="../imagenes/mesadepoolfija.jpg" class="card-img-top" alt="Pool fijo">
+          <div class="card-body">
+            <h5 class="card-title">Pool fijo</h5>
+            <p class="card-text">Ideal para fanáticos del pool. Pensada para poner en ambientes dedicados a la mesa de billar.</p>
+          </div>
+        </div>
+        </div>
     </main> 
-    <div>
     <footer class="footer container-fluid"> Renso's Pools </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-</div>   
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init ();
+    </script>
+  </body>
 </html>
