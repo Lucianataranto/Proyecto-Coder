@@ -1,6 +1,6 @@
 
 *{
-    background-color: #f4fe29;
+    background-color: black;
 }
 
 ul {
@@ -24,6 +24,12 @@ a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
+    
+        &__1{
+            display: flex;
+            justify-content: center;
+            }
+    
     }
 
     .table1 {
@@ -58,6 +64,7 @@ a {
     }
 
     .gridcontacto {
+        display: grid;
         grid-template-columns: repeat(1, 400px);
         grid-template-rows: repeat(3, 400px);
         gap: 20px;
@@ -73,6 +80,12 @@ a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        
+        &__1{
+            display: flex;
+            justify-content: center;
+            }
+    
     }
 
     .video {
@@ -125,6 +138,12 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
+
+&__1{
+display: flex;
+justify-content: center;
+}
+
 }
 
     .icon {
