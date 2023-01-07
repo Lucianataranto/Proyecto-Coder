@@ -12,8 +12,36 @@
     font-family: 'Cabin Sketch', cursive;
     width: 100%; }
 
+.navbar {
+  border: none; }
+
 .navbar1 {
-  background-color: white; }
+  background-color: #FF4A66;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  border-right: none; }
+  .navbar1__1 {
+    background-color: #FF4A66;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: none; }
+    .navbar1__1-2 {
+      background-color: #FF4A66; }
+
+.navli {
+  background-color: #FF4A66;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  border-right: none; }
+
+.navbaricon1 {
+  background-color: transparent; }
+
+.navbarul {
+  border: none !important; }
 
 /* Head title */
 .headtitle {
@@ -65,6 +93,13 @@
   width: 600px;
   height: 500px; }
 
+.botonpagvotar {
+  background-color: #FF4A66 !important; }
+
+.buttonvotar {
+  color: white;
+  border-color: #FF4A66; }
+
 /* Imagenes pag productos y votar */
 .imagenes {
   display: grid;
@@ -106,10 +141,9 @@
 .listadecontacto {
   display: flex;
   justify-content: center; }
-
-.listadecontacto2 {
-  display: flex;
-  justify-content: center; }
+  .listadecontacto__1 {
+    display: flex;
+    justify-content: center; }
 
 .formcontacto {
   display: flex;
@@ -240,10 +274,21 @@ a {
   .gridcontacto {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px; }
+    gap: 5px;
+    justify-content: center; }
   .listadecontacto {
     display: flex;
-    justify-content: center; }
+    margin-top: 100px; }
+    .listadecontacto__1 {
+      display: block; }
+  .licontacto {
+    font-size: small; }
+  .form-control {
+    width: 200px; }
+  .form-select {
+    width: 200px; }
+  .labelvotar {
+    display: none; }
   .imagenes {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -255,6 +300,8 @@ a {
     .imagenesnosotros__1 {
       display: flex;
       justify-content: center; }
+  .ppag4 {
+    text-align: center; }
   .icon {
     font-size: 15px; }
   .video {

@@ -23,8 +23,45 @@
 
 // navbar
 
+.navbar {
+    border: none;
+}
+
 .navbar1 {
-    background-color: white;
+    background-color: #FF4A66;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+
+&__1 {
+    background-color: #FF4A66;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+
+
+&-2 {
+    background-color: #FF4A66;
+}
+}
+}
+
+.navli {
+    background-color: #FF4A66;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.navbaricon1 {
+    background-color: transparent;
+}
+
+.navbarul {
+    border: none !important;
 }
 
 /* Head title */
@@ -95,7 +132,17 @@ margin: 20px;
     height: 500px;
 }
 
+// pag votar
 
+.botonpagvotar {
+    background-color: #FF4A66 !important;
+}
+
+.buttonvotar {
+
+    color: white;
+    border-color: #FF4A66;
+}
 
 /* Imagenes pag productos y votar */
 
@@ -149,12 +196,11 @@ margin: 20px;
 .listadecontacto {
  display: flex;
  justify-content: center;
-}
-
-.listadecontacto2 {
+&__1 {
     display: flex;
     justify-content: center;
-   }
+}
+}
 
 .formcontacto {
 display: flex;

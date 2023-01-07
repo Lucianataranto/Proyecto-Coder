@@ -121,11 +121,32 @@ a {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 5px;
+        justify-content: center;
     }
 
     .listadecontacto {
         display: flex;
-        justify-content: center;
+        margin-top: 100px;
+        
+        &__1 {
+            display: block;
+        }
+    }
+
+    .licontacto {
+        font-size: small;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .form-select {
+        width: 200px;
+    }
+
+    .labelvotar {
+        display: none;
     }
 
     .imagenes {
@@ -143,7 +164,10 @@ a {
 display: flex;
 justify-content: center;
 }
+}
 
+.ppag4 {
+text-align: center;
 }
 
     .icon {
