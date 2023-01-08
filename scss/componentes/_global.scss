@@ -14,8 +14,8 @@ a {
 @media (max-width: 991.98px) {
 
     .gridindex {
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(3, 400px);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         gap: 20px;
     }
 
@@ -35,12 +35,7 @@ a {
     .table1 {
         width: 500px;
         height: 500px;
-    }
-
-    .gridcontacto {
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(3, 400px);
-        gap: 20px;
+        margin-top: 30px;
     }
 
     .video {
@@ -53,8 +48,8 @@ a {
  @media (max-width: 767.98px) { 
 
     .gridindex {
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(3, 400px);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 10px;
     }
 
@@ -63,12 +58,6 @@ a {
         height: 400px;
     }
 
-    .gridcontacto {
-        display: grid;
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(3, 400px);
-        gap: 20px;
-    }
 
     .imagenes {
         grid-template-columns: repeat(1, 1fr);
@@ -117,16 +106,10 @@ a {
         height: 300px;
     }
 
-    .gridcontacto {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 5px;
-        justify-content: center;
-    }
-
     .listadecontacto {
         display: flex;
         margin-top: 100px;
+        justify-content: center;
         
         &__1 {
             display: block;
