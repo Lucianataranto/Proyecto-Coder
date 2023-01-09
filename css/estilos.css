@@ -12,9 +12,6 @@
     font-family: 'Cabin Sketch', cursive;
     width: 100%; }
 
-.navbar {
-  border: none; }
-
 .navbar1 {
   background-color: #FF4A66;
   border-bottom: none;
@@ -120,16 +117,12 @@
   justify-content: space-between 100px;
   background-color: white; }
 
-.carousel-item {
-  width: 100%;
-  height: 300px; }
-
-.carousel-inner {
-  width: 100%;
-  height: 300px; }
+.carrusel1 {
+  display: flex !important;
+  justify-content: center !important; }
 
 .imagencarousel {
-  width: 100%;
+  width: 600px;
   height: 300px; }
 
 /* Contacto */
@@ -188,16 +181,19 @@
 
 .imagenesnosotros {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  justify-content: center; }
-  .imagenesnosotros__1-2 {
-    width: 300px;
-    height: 300px;
-    margin: 30px; }
-    .imagenesnosotros__1-2:hover {
-      width: 400px;
-      height: 400px; }
+  justify-content: center !important; }
+  .imagenesnosotros__1 {
+    display: flex;
+    justify-content: center; }
+    .imagenesnosotros__1-2 {
+      width: 300px;
+      height: 300px;
+      margin: 15px; }
+      .imagenesnosotros__1-2:hover {
+        width: 400px;
+        height: 400px; }
 
 * {
   background-color: black; }
@@ -210,9 +206,19 @@ a {
 
 @media (max-width: 991.98px) {
   .gridindex {
-    grid-template-columns: repeat(1, 400px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px; }
+  .carrusel1 {
+    width: 100%;
+    height: 300px; }
+  .imagencarousel {
+    width: 100%;
+    height: 300px; }
+  .imagenes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-content: center; }
   .imagenesnosotros {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -222,28 +228,26 @@ a {
       justify-content: center; }
   .table1 {
     width: 500px;
-    height: 500px; }
-  .gridcontacto {
-    grid-template-columns: repeat(1, 400px);
-    grid-template-rows: repeat(3, 400px);
-    gap: 20px; }
+    height: 500px;
+    margin-top: 30px; }
   .video {
     width: 500px;
     height: 500px; } }
 
 @media (max-width: 767.98px) {
   .gridindex {
-    grid-template-columns: repeat(1, 400px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px; }
   .table1 {
     width: 400px;
     height: 400px; }
-  .gridcontacto {
-    display: grid;
-    grid-template-columns: repeat(1, 400px);
-    grid-template-rows: repeat(3, 400px);
-    gap: 20px; }
+  .carrusel1 {
+    width: 100%;
+    height: 300px; }
+  .imagencarousel {
+    width: 100%;
+    height: 300px; }
   .imagenes {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -259,6 +263,9 @@ a {
     width: 400px;
     height: 400px; } }
 
+.labelvotar {
+  display: none; }
+
 @media (max-width: 575.98px) {
   .headtitle {
     font-size: 20px; }
@@ -271,16 +278,24 @@ a {
   .table1 {
     width: 300px;
     height: 300px; }
+  .carrusel1 {
+    width: 100%;
+    height: 300px; }
+  .imagencarousel {
+    width: 100%;
+    height: 300px; }
   .gridcontacto {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
     justify-content: center; }
+  .labelvotar {
+    display: none; }
   .listadecontacto {
+    margin-top: 100px;
     display: flex;
-    margin-top: 100px; }
-    .listadecontacto__1 {
-      display: block; }
+    flex-direction: column;
+    justify-content: center; }
   .licontacto {
     font-size: small; }
   .form-control {

@@ -15,10 +15,25 @@ a {
 
     .gridindex {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 20px;
     }
 
+    .carrusel1 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imagencarousel {
+        width: 100%;
+        height: 300px;
+    }
+
+    .imagenes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-content: center;
+    }
 
     .imagenesnosotros {
         display: grid;
@@ -58,6 +73,16 @@ a {
         height: 400px;
     }
 
+    .carrusel1 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imagencarousel {
+        width: 100%;
+        height: 300px;
+    }
+
 
     .imagenes {
         grid-template-columns: repeat(1, 1fr);
@@ -77,11 +102,15 @@ a {
     
     }
 
-    .video {
-        width: 400px;
-        height: 400px;
+        .video {
+            width: 400px;
+            height: 400px;
+        }
     }
-}
+
+    .labelvotar {
+        display: none;
+    }
 
 
   @media (max-width: 575.98px) {
@@ -106,14 +135,38 @@ a {
         height: 300px;
     }
 
-    .listadecontacto {
-        display: flex;
-        margin-top: 100px;
+    .carrusel1 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imagencarousel {
+        width: 100%;
+        height: 300px;
+    }
+
+    .gridcontacto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         justify-content: center;
-        
-        &__1 {
-            display: block;
-        }
+    }
+
+    .labelvotar {
+        display: none;
+    }
+
+    .listadecontacto {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        // &__1 {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        // }
     }
 
     .licontacto {
@@ -138,20 +191,20 @@ a {
         align-content: center;
     }
 
-.imagenesnosotros {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    .imagenesnosotros {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
 
-&__1{
-display: flex;
-justify-content: center;
-}
-}
+    &__1{
+    display: flex;
+    justify-content: center;
+    }
+    }
 
-.ppag4 {
-text-align: center;
-}
+    .ppag4 {
+    text-align: center;
+    }
 
     .icon {
         font-size: 15px;
