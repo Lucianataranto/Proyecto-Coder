@@ -292,10 +292,9 @@ a {
   .labelvotar {
     display: none; }
   .listadecontacto {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    margin-top: 100px; }
+    .listadecontacto__1 {
+      display: block; }
   .licontacto {
     font-size: small; }
   .form-control {
